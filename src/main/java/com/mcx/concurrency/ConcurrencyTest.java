@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 public class ConcurrencyTest {
     //请求总数
     public static int clientTotal = 5000;
-    public static int threadTotal = 200;
+    public static int threadTotal = 100;
     public static int count = 0;
 
     public static void main(String[] args) throws Exception{
